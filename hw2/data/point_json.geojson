@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "point_json",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 1, "name": "quad_point" }, "geometry": { "type": "Point", "coordinates": [ -8800031.641864949837327, 4288721.901904311962426 ] } }
-]
-}
