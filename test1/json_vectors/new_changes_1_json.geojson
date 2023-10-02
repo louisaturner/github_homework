@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "new_changes_1_json",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Landscaping Changes" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.011695441365504, 42.362481394439357 ], [ -71.007612993484102, 42.361036544916999 ], [ -71.008931800188165, 42.358256282051208 ], [ -71.013589922303566, 42.358607805745315 ], [ -71.011695441365504, 42.362481394439357 ] ] ] ] } }
+]
+}
