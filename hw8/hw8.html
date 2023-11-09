@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8: Geoprocessing Analysis</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing Analysis</h1>
+<h2>Louisa Turner</h2>
+
+<h3>Within southern Florida, what percentage of rivers are within a densely populated and environmentally protected area?</h3>
+<a href="./hw8.png">
+    <img src="./hw8.png" alt="Southern Florida" width='500px'>
+    </a>
+    <p>To find the percentage of rivers within densely populated and environmentally protected areas, I imported Florida data from 2019 that included a shapefile of all densely populated cities and areas. I also imported a dataset of the environmentally protected areas within Florida under the Environmental Sensitivity Index (ESI), and a shapefile of all Florida rivers. I then performed an intersection of the densely populated and environmentally protected areas, and then dissolved the county borders to look at the areas as a whole. I then used another intersection with the dissolved data and rivers to find the percentage of rivers that exist within both areas. Thus, 84% of 456 rivers are within a densely populated area and environmentally protected area.</p>
+
+    <a href="https://geodata.myfwc.com/datasets/myfwc::esi-map-index-florida/about"><h2>Link to data concerning environmentally protected areas</h2></a>
+    <a href="https://hub.arcgis.com/datasets/aed062e780ee4bf5b698c175910478c2/explore?location=29.670807%2C-85.972147%2C5.89"><h2>Link to source for Florida rivers</h2></a>
+    <a href="https://catalog.data.gov/dataset/tiger-line-shapefile-2019-state-florida-current-place-state-based"><h2>Link to source for densely populated areas</h2></a>
+
+    <a href="./hw8/shapefiles/intersection_rivers_everything.shp"><h2>Link to new dataset with the intersection of rivers in both densely populated and environmentally protected areas</h2></a>
+    <a href="./shapefiles/dissolved.shp"><h2>Link to dissolved dataset with both densely populated and environmentally protected area</h2></a>
+
+</body>
+</html>
